@@ -1,0 +1,95 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 400px;
+    background-color: black;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(47, 51, 54);
+    color: white;
+}
+
+.x-icon {
+    height: 45px;
+    border-radius: 25px;
+    margin-bottom: 12px;
+}
+
+.sidebar-content-container {
+    margin-left: 135px;
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-link {
+    display: flex;
+    flex-direction: row;
+    align-items: Center;
+    padding-left: 4px;
+    padding-bottom: 25px;
+    cursor: pointer;
+}
+
+.sidebar-link img {
+    height: 32px;
+
+}
+
+.sidebar-link div {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.post-button-big {
+    width: 230px;
+    height: 50px;
+    background-color: rgb(47, 151, 248);
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+}
+
+.post-button-big-text {
+    position: relative;
+    top: 14px;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+.account-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 235px;
+    padding: 8px 8px;
+    border-radius: 117px;
+}
+
+.account-picture {
+    height: 37px;
+    border-radius:18px;
+}
+
+.three-dot-icon {
+    padding-left: 63px;
+    height: 17px;
+}
+
+.account-username {
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.account-at {
+    padding-left: 10px;
+    font-size: 15px;
+    color: rgb(62, 65, 68);
+}
