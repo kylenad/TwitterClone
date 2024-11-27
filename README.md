@@ -3,4 +3,4 @@ Clone of the home page of Twitter. As of now, this has been made with HTML and C
 Can modify by implementing JavaScript to give page functionality.
 
 ## How To View:
-- Clone project and open TwitterClone.html
+- Clone project and open twitter.html
